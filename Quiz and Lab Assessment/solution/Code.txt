@@ -1,0 +1,4 @@
+1. 	SELECT Last_Name AS 'Name', SUM(salary), AVG(salary), MAX(salary), MIN(salary)
+	FROM employees 
+	GROUP BY Last_Name;
+2.	
